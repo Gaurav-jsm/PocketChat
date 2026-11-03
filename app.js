@@ -1,6 +1,6 @@
 
 // 1. Supabase project credentials
-const SUPABASE_URL = "https://hdksluudcugbdaxwamxf.supabase.com";
+const SUPABASE_URL = "https://hdksluudcugbdaxwamxf.supabase.co";
 const SUPABASE_KEY = "sb_publishable_LskwJ5Fuhk9ltKIvmKZcgA_hvt8jAoQ";
 
 // 2. Connect to Supabase

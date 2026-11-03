@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#075e54">
+
+  <title>PocketChat</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>💬 PocketChat</h1>
+
+    <p>Connect. Chat. Share.</p>
+
+  </header>
+
+  <main>
+
+    <section id="auth-section">
+
+      <h2>Welcome to PocketChat</h2>
+
+      <div id="signup-form">
+
+        <h3>Create Account</h3>
+
+        <input id="display-name" type="text" placeholder="Your name">
+
+        <input id="signup-email" type="email" placeholder="Email address">
+
+        <input id="signup-password" type="password" placeholder="Password">
+
+        <button id="signup-button">Register</button>
+
+      </div>
+
+      <hr>
+
+      <div id="login-form">
+
+        <h3>Login</h3>
+
+        <input id="login-email" type="email" placeholder="Email address">
+
+        <input id="login-password" type="password" placeholder="Password">
+
+        <button id="login-button">Login</button>
+
+      </div>
+
+      <p id="auth-message"></p>
+
+    </section>
+
+    <section id="chat-section" hidden>
+
+      <h2 id="welcome-message"></h2>
+
+      <button id="logout-button">Logout</button>
+
+      <p>Your chats will appear here.</p>
+
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
